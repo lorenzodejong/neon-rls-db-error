@@ -14,7 +14,7 @@ Besides that you should have a valid access token which is signed with the keys 
 
 ### 1. Create a database in Neon
 
-Enable RLS Authorize, this is where you provide the JWKS endpoint from the [pre-requisite]1(#prerequisite).
+Enable RLS Authorize, this is where you provide the JWKS endpoint from the [prerequisite](#prerequisite).
 
 Apply the proposed queries under `Set up Extension and Roles Privileges`:
 
@@ -39,7 +39,7 @@ Modify the following variables:
 
 - `DATABASE_URL`: the pooling URL from Neon from the `neondb_owner` role
 - `AUTHENTICATED_DATABASE_URL`: the pooling URL from Neon from the `authenticated` role
-- `JWT_TOKEN`: a valid access token which is signed with the keys from the JWKS endpoint (see [pre-requisite](#prerequisite))
+- `JWT_TOKEN`: a valid access token which is signed with the keys from the JWKS endpoint (see [prerequisite](#prerequisite))
 
 ### Migrate the database
 
